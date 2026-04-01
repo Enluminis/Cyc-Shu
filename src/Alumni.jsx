@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import prattWhitneyLogo from './assets/pratt-whitney-logo.png';
 import bmwLogo from './assets/bmw-logo.png';
 import oliverWymanLogo from './assets/oliver-wyman-logo.png';
+import prudentialLogo from './assets/prudential-logo.png';
 
 function Alumni(){
     return(
@@ -24,7 +25,7 @@ function Alumni(){
 <div className='flex items-center justify-center bg-white p-4 h-[200px] md:h-[250px]'><img src='https://www.ecsmallbiz.org/wp-content/uploads/2020/06/withum-logo.jpg' className='max-w-full max-h-full object-contain'></img></div>
 <div className='flex items-center justify-center bg-white p-4 h-[200px] md:h-[250px]'><img src='https://jnj-content-lab2.brightspotcdn.com/dims4/default/562f8d2/2147483647/strip/true/crop/1627x914+120+0/resize/632x355!/quality/90/?url=https%3A%2F%2Fjnj-production-jnj.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fab%2Fc6%2F71c6d70841adbd2850de96523729%2Fred.png' className='max-w-full max-h-full object-contain'></img></div>
 <div className='flex items-center justify-center bg-white p-4 h-[200px] md:h-[250px]'><img src='https://www.blueowl.com/sites/default/files/2023-07/Horizontal.png' className='max-w-full max-h-full object-contain'></img></div>
-<div className='flex items-center justify-center bg-white p-4 h-[200px] md:h-[250px]'><img src={prattWhitneyLogo} alt='Pratt and Whitney' className='max-w-full max-h-full object-contain'></img></div><div className='flex items-center justify-center bg-white p-4 h-[200px] md:h-[250px]'><img src={bmwLogo} alt='BMW' className='max-w-full max-h-full object-contain'></img></div><div className='flex items-center justify-center bg-white p-4 h-[200px] md:h-[250px]'><img src={oliverWymanLogo} alt='Oliver Wyman' className='max-w-full max-h-full object-contain'></img></div>
+<div className='flex items-center justify-center bg-white p-4 h-[200px] md:h-[250px]'><img src={prattWhitneyLogo} alt='Pratt and Whitney' className='max-w-full max-h-full object-contain'></img></div><div className='flex items-center justify-center bg-white p-4 h-[200px] md:h-[250px]'><img src={bmwLogo} alt='BMW' className='max-w-full max-h-full object-contain'></img></div><div className='flex items-center justify-center bg-white p-4 h-[200px] md:h-[250px]'><img src={oliverWymanLogo} alt='Oliver Wyman' className='max-w-full max-h-full object-contain'></img></div><div className='flex items-center justify-center bg-white p-4 h-[200px] md:h-[250px]'><img src={prudentialLogo} alt='Prudential' className='max-w-full max-h-full object-contain'></img></div>
 </div>
         </>
     )
